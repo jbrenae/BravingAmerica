@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<Center><img src="Media/USA.jpg" alt="USA"></Center>
+<meta name="description" content="Braving2020">
+<meta charset="utf-8">
+<link rel="stylesheet" href="braving.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="braving.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
+    
+      <script>
+    function captureFormData(f) 
+    {
+      // data will contain comma separated values for popup box
+      var data = "", i, len;
+      
+      // set len to number of form elements f contains
+      len = f.length;
+
+      // traverse elements, one by one, where i is current element
+      for (i = 0; i < len; i++)  
+      {
+        // append value of current form element to data
+        data = data + f.elements[i].value;
+
+        // if not at end of form, so not last form element yet
+        if (i < len-1) 
+        { 
+          data += ", ";  // append comma
+        }
+      }
+      // in pop up display comma separated values stored in data
+      alert (data);  
+    }
+  </script>
+            
+
+</head>
+  
+<BODY>
+<header>  
+<a class="hmbgr" onclick="toggleNavBar()"><i class="fa fa-bars"></i></a>
+</header>
+    
+<center><nav id="navbar">
+    
+<a href="index.html" style="background-color: white" title="Go to Home page">Home</a>
+<a href="blmmovement.html" title="Go to BLM">BLM Movement</a>
+<a href="covid19vsyoursanity.html" title="Go to covid19">Covid19</a>
+<a href="presidentialelection.html" title="Go to Presidential Election">Presidential Election</a>
+<a href="workingfromhome.html" class="menu-chosen" title="Go Working From Home">Stuck at Home</a>
+    <a href="thankyou.html" title="Thank You">Our Heroes</a>
+</nav></center>
+  
+<div id="homehero"></div>
+    
+<main>
+        
+<style>
+div.background {
+  border: 5px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+    padding: 25px 50px 75px 100px;
+    }
+</style>
+    
+<div class="transbox">
+
+<center> 
+<h2><b>Working From Home</b></h2>
+</center>
+    <br>
+    <center>Not only are we stuck working from home but if you're a student you also have to take your classes from home! The confinement would make anyone crazy! I have gathered a few websites that has helped me maintain a level of sanity. To all the parents, students, essential workers or all of the above, Good luck!!</center>
+    <br>
+    <center><a href="https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/teleworking-during-coronavirus/art-20487369">Mayo Clinic</a></center>
+    <br>
+    <center><a href="https://www.cdc.gov/coronavirus/2019-ncov/community/mental-health-non-healthcare.html">CDC</a></center>
+    <br>
+    <center><a href="https://www.healthychildren.org/English/health-issues/conditions/COVID-19/Pages/Working-and-Learning-from-Home-COVID-19.aspx">Healthy Children</a></center>
+    <br>
+    <Center><b>What are your thoughts? Tell us how you've managed to maintain!</b></Center>
+        <div style="text-align: center;">
+    <p>Required information is marked with an asterisk (*).</p>
+
+  
+
+            
+    <form id="frm">
+    <div class="grid-container">
+      <div class="rightJustify">
+        <label for="myFName"> First Name: </label>
+      </div>
+      <div class="leftJustify">
+        <input type="text" id="myFName" name="myFName" >
+      </div>
+
+      <div class="rightJustify">
+        <label for="myLName"> Last Name: </label>
+      </div>
+      <div class="leftJustify">
+        <input type="text" id="myLName" name="myLName" >
+      </div>
+
+      <div class="rightJustify">
+        <label for="myEmail">* E-mail: </label>
+      </div>
+      <div class="leftJustify">
+        <input type="email" id="myEmail" name="myEmail" required>
+      </div>
+      
+
+      <div class="rightJustify">
+        <label for="myComments"> Comments: </label>
+      </div>
+      <div class="leftJustify">
+        <textarea id="myComments" name="myComments" rows="3" cols="50" ></textarea>
+      </div>
+
+      <div class="rightJustify">
+        &nbsp;
+      </div>
+      <div class="leftJustify">
+          <input type="submit" id="mySubmit" value="Submit"></div>
+    
+</div>
+
+            </form></div></div></main>
+
+    
+
+<center><footer>
+<p id="copy">
+&copy;Braving 2020<br>
+Send Email to <a href="mailto:jgreene28@hawkmail.hccfl.edu">jgreene28@hawkmail.hccfl.edu</a><br>
+<span id="mobile"><a href="tel:888-555-5276-889"></span>
+        
+<span id="desktop">888-555-5276-8891</span></span></p>
+    
+    </footer></center>
+        
+</BODY>
+</html>

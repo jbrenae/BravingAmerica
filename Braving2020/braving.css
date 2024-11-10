@@ -1,0 +1,55 @@
+header {background-image: url(Media/USA.jpg);}
+
+h1 {color:brown;
+    line-height: 76px;
+    height: 76px;
+    padding-right: 10px;
+    margin: 0;}
+
+h2{color:brown;
+    font-family: Georgia, serif;}
+
+a {color: hsl(32,25%,40%);}
+a:visited {color: hsl(197,16%,22%);}
+a:hover {background-color: hsl(32,10%,95%);
+    
+}
+nav {
+    background-color:White;
+    font-weight: bold;
+    border: 2px solid hsl(32,25%,65%)
+    padding: 0.2em;
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;}
+h3 {color: red;}
+
+h4{color:blue}
+
+table { 
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse; }
+th { 
+  padding: 5px; 
+  background:white; 
+  color: blue}
+td { 
+  padding: 5px; 
+  border: 2px black; 
+  text-align: center;
+}
+
+
+
+dt { 
+  font-weight: bold;
+  color:red;
+  border-bottom: 2px blue;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+dd { margin-bottom: 1em; }
+
+
